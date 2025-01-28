@@ -1,0 +1,345 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fcfdf9;
+}
+body ul {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+}
+
+header .banner-principal .banner-parrafo {
+  display: flex;
+  padding: 0;
+  background-color: #9AA6B2;
+}
+header .banner-principal .banner-parrafo p {
+  color: white;
+  margin: auto;
+  padding: 5px;
+}
+header .barra-bg {
+  background-color: #F8FAFC;
+}
+header div form .form-control {
+  height: 40px;
+  width: 300px;
+}
+header div form .navbar-tienda img {
+  height: 30px;
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+header ul {
+  display: flex;
+  column-gap: 150px;
+}
+
+main .main-div {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+main h2 {
+  color: #9AA6B2;
+  font-size: 15px;
+}
+main div h3 {
+  font-size: 30px;
+}
+
+.img-banner-pantalon-azul {
+  height: 120vh;
+  width: auto;
+}
+
+h1 {
+  margin: 800px 0 0 150px;
+  padding: 7px;
+  position: absolute;
+  color: white;
+  background-color: black;
+}
+
+.div-img-banner-zapa-marron {
+  display: none;
+}
+
+.div-img-jeans-para-mujer-azul {
+  display: none;
+}
+
+.main-contactos {
+  height: 90vh;
+}
+.main-contactos form div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.main-contactos form div .input-group {
+  row-gap: 50px;
+}
+.main-contactos input {
+  padding: 17px 25px;
+  border: none;
+  border-top: 1px solid #c7c9cb;
+  outline: none;
+}
+.main-contactos textarea {
+  padding: 10px 25px;
+  border: none;
+  border-top: 1px solid #c7c9cb;
+  outline: none;
+}
+.main-contactos .input-botton {
+  background-color: white;
+  border: 1px solid #c7c9cb;
+}
+
+.img-mujer-banner-jeans-para-mujer {
+  height: 100vh;
+  width: auto;
+}
+
+.p-amir-gramajo {
+  margin: 600px 0 0 150px;
+  padding: 7px;
+  position: absolute;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+}
+
+.main-tienda h2 {
+  padding: 1rem 0 0 1.5rem;
+  font-size: 25px;
+}
+
+section div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 50%);
+  padding: 1rem;
+  row-gap: 4rem;
+}
+section div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section div a {
+  color: black;
+}
+section .div-zapatilla-adidas-azul {
+  grid-template-columns: 1fr;
+}
+section .div-zapatilla-adidas-blanca {
+  grid-template-columns: 1fr;
+}
+section .div-zapatilla-adidas-gris {
+  grid-template-columns: 1fr;
+}
+section .div-zapatilla-adidas-verde {
+  grid-template-columns: 1fr;
+}
+section .div-zapatilla-nike-negra {
+  grid-template-columns: 1fr;
+  display: none;
+}
+section .div-zapatilla-topper-negra {
+  grid-template-columns: 1fr;
+  display: none;
+}
+section .div-mail-telefono {
+  display: flex;
+  flex-direction: column;
+}
+section .div-mail-telefono div {
+  display: block;
+}
+section .div-mail-telefono .h4-mail {
+  padding: 70px 0 0 0;
+}
+section .div-mail-telefono .h4-telefono {
+  padding: 20px 0 0 0;
+  border-top: 1px solid #c7c9cb;
+}
+
+.section-contactos {
+  height: 50vh;
+}
+
+footer {
+  display: flex;
+  margin-top: 5rem;
+  background-color: #eaf2f9;
+}
+footer div ul {
+  display: flex;
+  padding: 10px;
+  padding-left: 1.5rem;
+  gap: 2rem;
+}
+
+.main-productos div ul li {
+  padding-top: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-div {
+    margin: 0;
+    display: flex;
+    position: absolute;
+  }
+  .div-banner-img {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+    margin-left: 40px;
+  }
+  h1 {
+    font-size: 60px;
+    margin: 650px 0 0 120px;
+    position: absolute;
+    color: white;
+    background-color: black;
+  }
+  .div-img-jeans-para-mujer-azul {
+    display: block;
+  }
+  .div-img-banner-zapa-marron {
+    display: block;
+  }
+  .img-banner-pantalon-azul {
+    height: 100%;
+    width: auto;
+  }
+  .img-banner-jeans-para-mujer-azul {
+    height: 100%;
+    width: auto;
+  }
+  .img-banner-zapa-marron {
+    height: 100%;
+    width: auto;
+  }
+  .div-mujer-banner-img {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    margin: 10px;
+  }
+  .img-mujer-banner-jeans-para-mujer {
+    height: 100%;
+    width: auto;
+  }
+  .p-amir-gramajo {
+    font-size: 60px;
+    margin: 650px 0 0 120px;
+    padding: 0;
+    position: absolute;
+    color: white;
+    background-color: black;
+  }
+  .main-contactos {
+    height: 77.5vh;
+  }
+  .main-contactos h2 {
+    padding-left: 20px;
+  }
+  .main-contactos .div-texto-contactos {
+    align-items: center;
+  }
+  .main-contactos form .input-group {
+    padding: 10rem 0 0 20rem;
+  }
+  .main-contactos input {
+    border: none;
+    border-left: 1px solid #9AA6B2;
+    padding-top: 25px;
+    width: 70rem;
+  }
+  .main-contactos textarea {
+    border: none;
+    border-left: 1px solid #9AA6B2;
+    padding-top: 25px;
+    width: 70rem;
+  }
+  .main-contactos h3 {
+    padding: 10px;
+    font-size: 50px;
+  }
+  .main-contactos p {
+    font-size: 17px;
+    padding: 10px;
+  }
+  section div {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    padding: 5rem;
+    row-gap: 5rem;
+  }
+  section div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  section div a {
+    text-align: center;
+    font-size: 25px;
+  }
+  section .div-zapatilla-nike-negra {
+    display: grid;
+  }
+  section .div-zapatilla-topper-negra {
+    display: grid;
+  }
+  section .div-mail-telefono {
+    padding: 20rem;
+    display: flex;
+    flex-direction: row;
+  }
+  section .div-mail-telefono div {
+    display: block;
+    padding-right: 20rem;
+  }
+  section .div-mail-telefono .div-mail {
+    border-right: 1px solid #9AA6B2;
+  }
+  section .div-mail-telefono .h4-mail {
+    padding: 10px;
+    font-size: 35px;
+  }
+  section .div-mail-telefono .h4-telefono {
+    border: none;
+    padding: 10px;
+    font-size: 35px;
+  }
+  .section-contactos {
+    height: 85vh;
+  }
+  footer {
+    padding-left: 25%;
+  }
+  footer div ul {
+    gap: 20rem;
+  }
+  .main-productos {
+    height: 77.5vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
