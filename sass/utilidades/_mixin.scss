@@ -1,0 +1,25 @@
+//mixin para flex
+
+@mixin flex($direction: row, $gap: 0) {
+    display: flex;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin border-top {
+    border: none;
+	border-top: 1px solid $color-borde;
+}
+@mixin input-textarea {
+    border: none;
+	border-left: 1px solid #9AA6B2;
+    padding-top: 25px;
+	width: 70rem;
+}
+
+@mixin grid($columns: 1fr, $rows: auto, $gap: 0) {
+    display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    gap: $gap;
+}

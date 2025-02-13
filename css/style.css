@@ -1,3 +1,4 @@
+/* estilos reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,6 +6,7 @@
   font-family: sans-serif;
 }
 
+/* estilos generales */
 body {
   margin: 0;
   padding: 0;
@@ -17,8 +19,12 @@ body a {
   text-decoration: none;
 }
 
+/* estilos mobile */
+/* estilos de header*/
 header .banner-principal .banner-parrafo {
   display: flex;
+  flex-direction: row;
+  gap: 0;
   padding: 0;
   background-color: #9AA6B2;
 }
@@ -45,6 +51,7 @@ header ul {
   column-gap: 150px;
 }
 
+/* estilos main index */
 main .main-div {
   height: 100%;
   margin: 0;
@@ -80,12 +87,14 @@ h1 {
   display: none;
 }
 
+/* estilos main contactos */
 .main-contactos {
   height: 90vh;
 }
 .main-contactos form div {
   display: flex;
   flex-direction: column;
+  gap: 0;
   padding: 10px;
 }
 .main-contactos form div .input-group {
@@ -108,6 +117,7 @@ h1 {
   border: 1px solid #c7c9cb;
 }
 
+/* estios main mujer */
 .img-mujer-banner-jeans-para-mujer {
   height: 100vh;
   width: auto;
@@ -122,15 +132,18 @@ h1 {
   font-size: 30px;
 }
 
+/* estilos main tienda */
 .main-tienda h2 {
   padding: 1rem 0 0 1.5rem;
   font-size: 25px;
 }
 
+/* estilos section index */
 section div {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(2, 50%);
+  gap: 4rem;
   padding: 1rem;
   row-gap: 4rem;
 }
@@ -165,6 +178,7 @@ section .div-zapatilla-topper-negra {
 section .div-mail-telefono {
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 section .div-mail-telefono div {
   display: block;
@@ -181,6 +195,7 @@ section .div-mail-telefono .h4-telefono {
   height: 50vh;
 }
 
+/* estilos footer */
 footer {
   display: flex;
   margin-top: 5rem;
@@ -188,16 +203,19 @@ footer {
 }
 footer div ul {
   display: flex;
-  padding: 10px;
-  padding-left: 1.5rem;
+  flex-direction: row;
   gap: 2rem;
+  padding: 10px 1.5rem;
 }
 
+/* estilos productos */
 .main-productos div ul li {
   padding-top: 100%;
 }
 
+/* responsive estilos de desktop */
 @media screen and (min-width: 1024px) {
+  /* estilos main index */
   .main-div {
     margin: 0;
     display: flex;
@@ -206,8 +224,8 @@ footer div ul {
   .div-banner-img {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    column-gap: 2rem;
+    flex-direction: row;
+    gap: 2rem;
     margin-left: 40px;
   }
   h1 {
@@ -254,6 +272,7 @@ footer div ul {
     color: white;
     background-color: black;
   }
+  /* estilos main contactos */
   .main-contactos {
     height: 77.5vh;
   }
@@ -286,11 +305,13 @@ footer div ul {
     font-size: 17px;
     padding: 10px;
   }
+  /* estilos section index */
   section div {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50% 50%;
+    gap: 5rem;
     padding: 5rem;
-    row-gap: 5rem;
   }
   section div img {
     height: 100%;
@@ -311,6 +332,7 @@ footer div ul {
     padding: 20rem;
     display: flex;
     flex-direction: row;
+    gap: 0;
   }
   section .div-mail-telefono div {
     display: block;
@@ -331,6 +353,7 @@ footer div ul {
   .section-contactos {
     height: 85vh;
   }
+  /* estilos footer */
   footer {
     padding-left: 25%;
   }
